@@ -54,7 +54,7 @@ public class HelloWorld extends HttpServlet{
                     + "<body>"
                     + "<h1>Weclcome JAVA in Docker</h1>"
                     + "<p>数据库连接成功，连接代码：</p>"
-                    + "<p><pre>DriverManager.getConnection(\"jdbc:mysql://mysql/docker\", \"root\", \"docker22\")</pre></p>"
+                    + "<p><pre>DriverManager.getConnection(\"jdbc:mysql://mysql/docker\", \"root\", \"docker天天\")</pre></p>"
                     + "</body></html>");
         } catch (Exception e) {
             System.out.println(e);
