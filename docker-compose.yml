@@ -17,6 +17,7 @@ java-maven-tomcat:
     - ./log/tomcat:/usr/local/tomcat/logs
     # 挂载 JAVA 源代码目录
     - ./code:/tmp/code
+    - ./test:/tmp/test
   restart: always
 mysql:
   build: ./mysql
